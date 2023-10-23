@@ -1,7 +1,6 @@
 function showName() {
-    var firstName = document.getElementById('firstName').value;
-    var lastName = document.getElementById('lastName').value;
-
+    var firstName = document.getElementById('fname').value;
+    var lastName = document.getElementById('lname').value;
 
     alert("First Name: " + firstName + "\nLast Name: " + lastName);
-});
+}
